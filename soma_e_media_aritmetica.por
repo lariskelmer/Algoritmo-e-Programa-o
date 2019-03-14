@@ -1,5 +1,5 @@
 //Algoritmo:
-//Descrição: calcular a área do circulo a partir do valor de raio fornecido pelo usuário
+//Descrição: 
 //Autora: Larissa Kelmer
 //Data: 14/03/2019
 
@@ -32,10 +32,17 @@ programa
 
 		//realizar a soma
 		soma = (valor_1 + valor_2 + valor_3)
+
+		//realizar o arredondamento da soma
+
+		soma = Matematica.arredondar(soma, 1)
 		
 		//realizar a media aritmetica
 		media = (soma/3)
 
+		//realizar o arredondamento da media
+		media = Matematica.arredondar(media, 1)
+		
 		//divulgar os resultados
 		escreva("\n\nO resultado da soma é: ", soma, "\n\nO resultado da media aritmetica é: ", media, "\n")
 	}
@@ -45,7 +52,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 290; 
+ * @POSICAO-CURSOR = 544; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
