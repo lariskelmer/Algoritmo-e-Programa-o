@@ -1,31 +1,32 @@
 // Algoritmo: sequencia de numeros
 // Autora: Larissa Kelmer
-// Descrição: imprime uma seuqencia de numero de 1 a 20
+// DescriÃ§Ã£o: imprime uma seuqencia de numero de 1 a 20
 // Data: 28/03/19
 programa
 {
-	// Função principal
+	// FunÃ§Ã£o principal
 	
 	funcao inicio()
 	{
-		// Declaração de variáveis
+		// DeclaraÃ§Ã£o de variÃ¡veis
 		inteiro contador=1
 		
-		// Apresentação do programa
-		escreva("Sequência de Números: \n")
+		// ApresentaÃ§Ã£o do programa
+		escreva("SequÃªncia de NÃºmeros: \n")
 
-		// Imprimir a sequência de números
+		// Imprimir a sequÃªncia de nÃºmeros
 
 		enquanto (contador<21){
 			escreva(contador, "\n")
 			contador += 1
+			//contador++
 		}
 	}
 }
 /* $$$ Portugol Studio $$$ 
  * 
- * Esta seção do arquivo guarda informações do Portugol Studio.
- * Você pode apagá-la se estiver utilizando outro editor.
+ * Esta seÃ§Ã£o do arquivo guarda informaÃ§Ãµes do Portugol Studio.
+ * VocÃª pode apagÃ¡-la se estiver utilizando outro editor.
  * 
  * @POSICAO-CURSOR = 413; 
  * @PONTOS-DE-PARADA = ;
