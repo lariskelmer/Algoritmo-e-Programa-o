@@ -12,7 +12,7 @@ programa
 		inteiro auxvalor, auxzero = 0
 		inteiro valor
 		inteiro preciso100 = 0, preciso50 = 0, preciso20 = 0, preciso10 = 0, preciso5 = 0, preciso2 = 0
-		//Declaração de variáveis
+		//DeclaraÃ§Ã£o de variÃ¡veis
 
 		escreva("\nCAIXA ELETRÔNICO\n")
 		// Título
@@ -89,7 +89,7 @@ programa
 
 			se (valor != 0)
 			{
-				escreva("\nN�o � poss�vel sacar")
+				escreva("\nNão é possível sacar")
 				valor = 0
 				auxzero = 1
 			}
@@ -97,15 +97,15 @@ programa
 		//Operações
 		se (auxzero != 1)
 		{
-			escreva ("\nO valor ", auxvalor, " ser� fornecido em ", preciso100, " notas de 100, ", preciso50, " notas de 50, ", preciso20, " notas de 20, ", preciso10, " notas de 10, ", preciso5, " notas de 5 e ", preciso2, " notas de 2. Ser�o necess�rias ", (preciso100 + preciso50 + preciso20 + preciso10 + preciso5 + preciso2)," notas ao todo")
+			escreva ("\nO valor ", auxvalor, " será fornecido em ", preciso100, " notas de 100, ", preciso50, " notas de 50, ", preciso20, " notas de 20, ", preciso10, " notas de 10, ", preciso5, " notas de 5 e ", preciso2, " notas de 2. Serão necessárias ", (preciso100 + preciso50 + preciso20 + preciso10 + preciso5 + preciso2)," notas ao todo")
 		}
 		//Exibindo resultados
 	}		
 }
 /* $$$ Portugol Studio $$$ 
  * 
- * Esta se��o do arquivo guarda informa��es do Portugol Studio.
- * Voc� pode apag�-la se estiver utilizando outro editor.
+ * Esta seção do arquivo guarda informações do Portugol Studio.
+ * Você pode apagá-la se estiver utilizando outro editor.
  * 
  * @POSICAO-CURSOR = 2387; 
  * @PONTOS-DE-PARADA = ;
